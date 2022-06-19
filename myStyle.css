@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+nav{
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+#menuList{
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menuList li{
+    float: left;
+    font-family: 'Noto Serif KR';
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 34px;
+    list-style: none;
+    margin: 0px 70px;
+    padding : 10px 0px;
+
+    user-select: none;
+}
+
+#menus ul li:hover{color: rgb(184, 184, 184);}
+
+
+
+
+.text{font-family: 'Noto Serif KR', serif;}
+
+body{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#container{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#main{
+    width: 1440px;
+}
+
+
+.row{
+    position: relative;
+    display: flex;
+    margin: 0px;
+}
+
+
+.row div{padding: 10px;}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 24.99%;}
+.col-4{width: 33.32%;}
+.col-5{width: 41.65%;}
+.col-6{width: 49.98%;}
+.col-7{width: 58.31%;}
+.col-8{width: 66.64%;}
+.col-9{width: 74.97%;}
+.col-10{width: 83.3%;}
+.col-11{width: 91.63%;}
+.col-12{width: 100%;}
+
+.h-25{height: 25px;}
+.h-50{height: 50px;}
+.h-70{height: 70px;}
+.h-75{height: 75px;}
+.h-100{height: 100px;}
+.h-150{height: 150px;}
+.h-200{height: 200px;}
+.h-210{height: 210px;}
+.h-250{height: 250px;}
+.h-300{height: 300px;}
+.h-350{height: 350px;}
+.h-400{height: 400px;}
+.h-450{height: 450px;}
+.h-500{height: 500px;}
+.h-600{height: 600px;}
+.h-650{height: 650px;}
+.h-700{height: 700px;}
+
+
+.text-eg{font-family: 'Noto Serif KR', serif;}
+
+.text_1{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 92px;
+}
+.text_2{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 52px;
+}
+
+.text_3_1{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 110px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; 
+}
+
+.text_3_2{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 110px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black; 
+}
+
+.text_4{ 
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+}
+
+.text_5{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.text_6{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.text_7{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+}
+
+.text_8{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    line-height: 45px;
+}
+
+.text_9_right{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: right;
+}
+
+.text_9_left{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 1440px;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.text_footer{
+    position: absolute;
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
